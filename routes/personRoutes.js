@@ -47,6 +47,7 @@ router.get('/:workType', async (req, res) => {
         console.log(err);
         res.status(500).json({ err: 'Internet Server Error' });
     }
+
 })
 
 
