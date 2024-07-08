@@ -86,7 +86,7 @@ router.delete('/:id', async (req, res) => {
         }
         console.log("PersonId", PersonId);
         res.status(200).json({message:'Person Data Deleted Successfully'}); 
-    }
+    } 
     catch{
         console.log(err)
         res.status(500).json({ err: 'Internet Server Error' })
